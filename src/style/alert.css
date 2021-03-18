@@ -1,0 +1,31 @@
+/* title: 'alertTitle',
+container: 'alertContainer',
+icon: 'alertIcon' */
+
+.alertTitle {
+  font-family: op;
+  font-size: 3rem;
+  color: white;
+  grid-column: 2/5;
+  margin: 0;
+}
+.alertPopup{
+  border: .2rem solid grey;
+  background-color: black;
+}
+
+.alertContent{
+  font-family: op;
+  font-size: 2rem;
+  color: white;
+  padding: 1.5rem;
+}
+
+.swal2-styled.swal2-confirm.alertConfirm{
+  background-color: grey;
+  font-family: op;
+}
+
+.swal2-styled.swal2-confirm.alertConfirm:hover{
+  color: black;
+}

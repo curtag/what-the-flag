@@ -2,7 +2,7 @@
   background-color: grey;
   display: flex;
   flex-wrap: wrap;
-  place-content: space-between;
+  place-content: space-around;
 }
 
 .card {
@@ -14,7 +14,9 @@
   padding: 1rem 1.5rem 1rem 1.5rem;
   max-width: 7rem;
   border-radius: 5%;
+  min-height: 13rem;
 }
+
 .card:hover {
   cursor: pointer;
   color: green;

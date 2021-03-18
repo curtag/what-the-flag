@@ -1,15 +1,14 @@
-import { useLayoutEffect, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Gameboard from './components/Gameboard';
 import './style/index.css'
-import randomCountries from './scripts/randomcountries';
+import './style/alert.css'
 
 export default function App() {
 
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
-  //253 max number of coutnries with chance.js
-  const [countries, setCountries] = useState([...randomCountries(6)]);
+  const [level, setLevel] = useState(1);
 
   useEffect(() => {
     if (score > bestScore) {
@@ -17,26 +16,10 @@ export default function App() {
     }
   },[score])
 
-  useEffect(() => {
-    console.log('something happened')
-    if (score === 0 && bestScore > 0){
-      setCountries([...randomCountries(6)])
-      console.log(countries)
-    }
-    
-  }, [score])
-
-  // useEffect(() => {
-  //   if (score === 0){
-  //     console.log("did we do this?")
-  //     setCountries([...randomCountries(6)])
-  //     console.log(countries);
-  //   }
-  // },[countries, score])
   return (
     <div>
-      <Header score={score} bestScore={bestScore}/>
-      <Gameboard countries={countries} setScore={setScore} score={score}/>
+      <Header score={score} bestScore={bestScore} level={level}/>
+      <Gameboard setScore={setScore} score={score} bestScore={bestScore} setLevel={setLevel} level={level}/>
     </div>
   );
 }

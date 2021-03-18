@@ -9,8 +9,9 @@ export default function Header(props) {
         <div className="brand-title">What The Flag</div>
       </div>
       <div className="scores">
-        <p className="scores-score">Score: {props.score}</p>
-        <p className="scores-best-score">Best Score: {props.bestScore}</p>
+        <p className="scores-level">Level <span>{props.level}</span></p>
+        <p className="scores-score">Score: <span>{props.score}</span></p>
+        <p className="scores-best-score">Best Score: <span>{props.bestScore}</span></p>
       </div>
     </div>
   )
