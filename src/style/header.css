@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'ktn';
+  src: local(ktn), url(../fonts/killthenoise.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local(Lato), url(../fonts/Lato.ttf) format('truetype');
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  padding: .5rem;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.brand-title{
+  font-family: ktn;
+  font-size: 2.75rem;
+  margin-left: 1rem;
+}
+
+.scores {
+  font-family: Lato;
+  display: flex;
+}
+
+.scores-best-score {
+  margin-left: 1rem;
+}
