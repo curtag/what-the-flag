@@ -29,21 +29,15 @@ body {
   background-color: grey;
   display: flex;
   flex-wrap: wrap;
-  place-content: space-around;
+  place-content: space-evenly;
   padding-top: 2rem;
 }
 
 @media (max-width: 720px){
-  /* .gameboard {
+  .gameboard {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    place-content: normal;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-items: center;
     column-gap: .25rem;
   }
-}
-
-@media (max-width: 640px){
-  .gameboard {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  } */
 }

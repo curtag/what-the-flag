@@ -5,7 +5,6 @@ import Swal from 'sweetalert2';
 var countries = require("i18n-iso-countries");
 countries.registerLocale(require("i18n-iso-countries/langs/en.json"));
 
-
 export default function Card(props){
   const [clicked, setClicked] = useState(false);
 
@@ -40,7 +39,7 @@ export default function Card(props){
       default:
         return countryCode;
     }
-    
+
   }
   return(
     <figure className="card" onClick={handleMove}>

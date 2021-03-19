@@ -1,7 +1,3 @@
-/* title: 'alertTitle',
-container: 'alertContainer',
-icon: 'alertIcon' */
-
 .alertTitle {
   font-family: op !important;
   font-size: 3rem !important;
@@ -29,7 +25,6 @@ icon: 'alertIcon' */
   color: black;
 }
 
-
 @media (max-width: 720px){
   .alertTitle{
     font-size: 2rem !important;
@@ -39,5 +34,4 @@ icon: 'alertIcon' */
     font-size: 1rem !important;
     padding: .75rem;
   }
-  
 }

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import Card from './Card';
 import randomCountries from '../scripts/randomcountries';
 
-
 export default function Gameboard(props) {
   const [difficulty, setDifficulty] = useState(4)
   const [countries, setCountries] = useState(randomCountries(difficulty));
@@ -40,8 +39,8 @@ export default function Gameboard(props) {
     shuffleCountries()
     if (cards.length === difficulty){
       props.setLevel(props.level + 1);
-      setDifficulty(difficulty + 2)
-      setCountries(randomCountries(difficulty + 2))
+      setDifficulty(difficulty + 4)
+      setCountries(randomCountries(difficulty + 4))
       setCards([]);
     }
   },[props.score])
