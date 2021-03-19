@@ -29,10 +29,10 @@ export default function Card(props){
     }
     console.log("we clicked");
   }
-
   return(
     <figure className="card" onClick={handleMove}>
-      <div className="card-icon">{emoji(props.country)}</div>
+      {/* <div className="card-icon">{emoji(props.country)}</div> */}
+      <img className="card-icon" src={`${process.env.PUBLIC_URL}/assets/flags/${props.country.toLowerCase()}.png`} alt={emoji(props.country)}/>
       <figcaption className="card-caption">
         {(countries.getName(props.country, "en", {select: "official"})) ? 
         (countries.getName(props.country, "en", {select: "official"})) :

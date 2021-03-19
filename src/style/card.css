@@ -17,6 +17,10 @@
 }
 .card-icon {
   font-size: 7rem;
+  width: 7rem;
+  height: 5rem;
+  border: 1px solid white;
+  margin-top: 1rem;
 }
 
 .card-caption {
