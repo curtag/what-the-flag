@@ -32,3 +32,18 @@ body {
   place-content: space-around;
   padding-top: 2rem;
 }
+
+@media (max-width: 720px){
+  /* .gameboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-content: normal;
+    column-gap: .25rem;
+  }
+}
+
+@media (max-width: 640px){
+  .gameboard {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } */
+}

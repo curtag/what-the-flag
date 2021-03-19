@@ -29,6 +29,19 @@ export default function Card(props){
     }
     console.log("we clicked");
   }
+
+  function countryName(countryCode){
+    switch (countryCode) {
+      case 'AC': return 'Ascension Island';
+      case 'EA': return 'Ceuta, Melilla';
+      case 'DG': return 'Diego Garcia';
+      case 'IC': return 'Canary Islands';
+      case 'TA': return 'Tristan da Cunha';
+      default:
+        return countryCode;
+    }
+    
+  }
   return(
     <figure className="card" onClick={handleMove}>
       {/* <div className="card-icon">{emoji(props.country)}</div> */}
@@ -36,7 +49,7 @@ export default function Card(props){
       <figcaption className="card-caption">
         {(countries.getName(props.country, "en", {select: "official"})) ? 
         (countries.getName(props.country, "en", {select: "official"})) :
-        props.country}
+        countryName(props.country)}
       </figcaption>
     </figure>
   )
