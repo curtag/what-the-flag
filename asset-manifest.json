@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/what-the-flag/static/css/main.e1eab382.chunk.css",
+    "main.css": "/what-the-flag/static/css/main.54cba26c.chunk.css",
     "main.js": "/what-the-flag/static/js/main.634bc14c.chunk.js",
     "main.js.map": "/what-the-flag/static/js/main.634bc14c.chunk.js.map",
     "runtime-main.js": "/what-the-flag/static/js/runtime-main.07219349.js",
@@ -8,14 +8,14 @@
     "static/js/2.b6eba4bc.chunk.js": "/what-the-flag/static/js/2.b6eba4bc.chunk.js",
     "static/js/2.b6eba4bc.chunk.js.map": "/what-the-flag/static/js/2.b6eba4bc.chunk.js.map",
     "index.html": "/what-the-flag/index.html",
-    "static/css/main.e1eab382.chunk.css.map": "/what-the-flag/static/css/main.e1eab382.chunk.css.map",
+    "static/css/main.54cba26c.chunk.css.map": "/what-the-flag/static/css/main.54cba26c.chunk.css.map",
     "static/js/2.b6eba4bc.chunk.js.LICENSE.txt": "/what-the-flag/static/js/2.b6eba4bc.chunk.js.LICENSE.txt",
     "static/media/index.css": "/what-the-flag/static/media/op.69061516.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.07219349.js",
     "static/js/2.b6eba4bc.chunk.js",
-    "static/css/main.e1eab382.chunk.css",
+    "static/css/main.54cba26c.chunk.css",
     "static/js/main.634bc14c.chunk.js"
   ]
 }
