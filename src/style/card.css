@@ -54,3 +54,11 @@
     margin-top: .25rem;
   }
 }
+
+/* touchscreen */
+@media (any-pointer: coarse) {
+  .card:hover {
+    color: white;
+    border-color: white;
+  }
+} 
