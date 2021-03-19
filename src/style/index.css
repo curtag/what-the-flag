@@ -1,8 +1,34 @@
+@font-face {
+  font-family: 'ktn';
+  src: local(ktn), url(../fonts/killthenoise.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Brushstrike';
+  src: local(Brushstrike), url(../fonts/Brushstrike.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local(Lato), url(../fonts/Lato.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'op';
+  src: local(op), url(../fonts/op.ttf) format('truetype');
+}
+
 @import-normalize;
-/* @import './alert.css' */
 
 body {
   margin: 0;
   min-height: 100vh;
   background-color: grey;
+}
+
+.gameboard {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: space-around;
+  padding-top: 2rem;
 }

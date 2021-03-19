@@ -32,7 +32,7 @@ export default function Card(props){
 
   return(
     <figure className="card" onClick={handleMove}>
-      <img className="card-icon" alt={emoji(props.country)}></img>
+      <div className="card-icon">{emoji(props.country)}</div>
       <figcaption className="card-caption">
         {(countries.getName(props.country, "en", {select: "official"})) ? 
         (countries.getName(props.country, "en", {select: "official"})) :
