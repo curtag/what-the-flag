@@ -3,22 +3,21 @@ container: 'alertContainer',
 icon: 'alertIcon' */
 
 .alertTitle {
-  font-family: op;
-  font-size: 3rem;
-  color: white;
-  grid-column: 2/5;
-  margin: 0;
+  font-family: op !important;
+  font-size: 3rem !important;
+  color: white !important;
+  margin: 0 !important;
 }
 .alertPopup{
-  border: .2rem solid grey;
-  background-color: black;
+  border: .2rem solid grey !important;
+  background: black !important;
 }
 
 .alertContent{
-  font-family: op;
-  font-size: 2rem;
-  color: white;
-  padding: 1.5rem;
+  font-family: op !important;
+  font-size: 2rem !important;
+  color: white !important;
+  padding: 1.5rem !important;
 }
 
 .swal2-styled.swal2-confirm.alertConfirm{
