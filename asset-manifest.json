@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/what-the-flag/static/css/main.05c4484b.chunk.css",
-    "main.js": "/what-the-flag/static/js/main.972519fd.chunk.js",
-    "main.js.map": "/what-the-flag/static/js/main.972519fd.chunk.js.map",
+    "main.js": "/what-the-flag/static/js/main.25aad4e1.chunk.js",
+    "main.js.map": "/what-the-flag/static/js/main.25aad4e1.chunk.js.map",
     "runtime-main.js": "/what-the-flag/static/js/runtime-main.07219349.js",
     "runtime-main.js.map": "/what-the-flag/static/js/runtime-main.07219349.js.map",
-    "static/js/2.b6eba4bc.chunk.js": "/what-the-flag/static/js/2.b6eba4bc.chunk.js",
-    "static/js/2.b6eba4bc.chunk.js.map": "/what-the-flag/static/js/2.b6eba4bc.chunk.js.map",
+    "static/js/2.e0925712.chunk.js": "/what-the-flag/static/js/2.e0925712.chunk.js",
+    "static/js/2.e0925712.chunk.js.map": "/what-the-flag/static/js/2.e0925712.chunk.js.map",
     "index.html": "/what-the-flag/index.html",
     "static/css/main.05c4484b.chunk.css.map": "/what-the-flag/static/css/main.05c4484b.chunk.css.map",
-    "static/js/2.b6eba4bc.chunk.js.LICENSE.txt": "/what-the-flag/static/js/2.b6eba4bc.chunk.js.LICENSE.txt",
+    "static/js/2.e0925712.chunk.js.LICENSE.txt": "/what-the-flag/static/js/2.e0925712.chunk.js.LICENSE.txt",
     "static/media/index.css": "/what-the-flag/static/media/op.69061516.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.07219349.js",
-    "static/js/2.b6eba4bc.chunk.js",
+    "static/js/2.e0925712.chunk.js",
     "static/css/main.05c4484b.chunk.css",
-    "static/js/main.972519fd.chunk.js"
+    "static/js/main.25aad4e1.chunk.js"
   ]
 }
